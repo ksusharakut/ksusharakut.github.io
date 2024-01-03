@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кухни мира</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="bg">
+            <img class="icon" src="img/ornament.svg" alt="icon">
+            <div class="title">КУХНИ МИРА</div>
+        </div>
+        <div class="burger">
+            <img class="burgerbtn" src="img/menu.svg" alt="icon">
+    
+            <div class="burger-content">
+                <a href="index.html">ГЛАВНАЯ СТРАНИЦА</a>
+                <a href="aboutUs.html">О НАС</a>
+                <a href="menu.html">МЕНЮ</a>
+                <a href="basket.html">КОРЗИНА</a>
+            </div>
+        </div>
+    </header>
+    <div class="basket-frame"> 
+        <div class="abt-us">
+            <p class="abt-us-title">КОРЗИНА</p>
+        </div>
+        <div class="baskets">
+            <ul class="bask-list">
+                <li>Цена</li>
+                <li>Кол-во</li>
+                <li>Очистить</li>
+            </ul>
+            <hr class="line">
+            <div class="order-one">
+                <p class="order-title">Буйабес</p>
+                <p class="odrer-description">Состав: рыба, моллюски, помидоры, чеснок, лук, белое вино и шафран.</p>
+            </div>
+            <div class="aaa">
+                
+                    <p class="price1">18 руб</p>
+                    <input type="number" class="number-order1" step="1" min="0" max="10" value="2" />
+                    <button id="del" class="button del">
+                        <i class="fa fa-unlock"></i>
+                        <span>X</span>
+                    </button>
+
+            </div>
+        </div>
+        
+            <div class="form">
+                <p class="input-number-title">Введите номер телефона:</p>
+                <input type="text" class="text-number" id=»numericInput»>
+                
+            </div>
+                    <button id="basket" class="button basket">
+                        <i class="fa fa-unlock"></i>
+                        <span>Оформить заказ</span>
+                    </button>
+    </div>
+    <footer>
+        <button onclick="topFunction()" class="myBtn" title="Go to top">↑</button>
+        <div class="contacts">
+            <div class="cnt">
+                <ul>
+                    <li>
+                        <h2 class="cntcts">КОНТАКТЫ</h2>
+                    </li>
+                    <li><a class="to-white" href="mailto:ember@hilton.com">ember@hilton.com</a></li>
+                    <li><a class="to-white" href="tel:+375445071729">+375 (44) 507-17-29</a></li>
+                    <li>
+                        <p>г. Минск, пр. Победителей 9, 7 этаж отеля DoubleTree by Hilton</p>
+                    </li>
+                </ul>
+    
+            </div>
+    
+            <div class="schedule">
+                <ul>
+                    <li>
+                        <h2 class="schedl">ГРАФИК РАБОТЫ</h2>
+                    </li>
+                    <li>
+                        <p class="time">Пн-Ср, Вс с 12:00 до 23:00 (кухня до 22:30) Чт с 12:00 до 24:00 (кухня до 23:00) Пт,
+                            Сб с 12:00 до 01:00
+                            (кухня до
+                            00:00)</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <img class="logos" src="img/logos.png" alt="logos">
+    </footer>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кухни мира</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
+        
+</head>
+<body>
+    
+    <!--main conteiner-->
+    <div class="main-container">
+        <!--main content section-->
+        <header>
+            <div class="bg">
+                <img class="icon" src="img/ornament.svg" alt="icon">
+                <div class="title">КУХНИ МИРА</div>
+            </div>
+            <div class="burger">
+                <img class="burgerbtn" src="img/menu.svg" alt="icon">
+                <div class="burger-content">
+                    <a href="index.html">ГЛАВНАЯ СТРАНИЦА</a>
+                    <a href="aboutUs.html">О НАС</a>
+                    <a href="menu.html">МЕНЮ</a>
+                    <a href="basket.html">КОРЗИНА</a>
+                </div>
+            </div>
+        </header>
+        <!--start picture-->
+        <div class="start">
+            <img class="fon" src="img/GroupFrames1.png" alt="group-frames">
+            <img class="big-icon" src="img/icon2.svg" alt="big-icon">
+            <h1 class="start-title">КУХНИ МИРА</h1>
+            
+        </div>
+        <div>
+            <div class="franch">
+                <h1 class="title-country-fr">ФРАНЦУЗСКАЯ КУХНЯ</h1>
+                <img class="onion-soup" src="img/Картинка Франция.png" alt="picture">
+                <p class="text-fr">«Ох уж эти французы, они такие гурманы!» – говорят многие, имея в виду французскую кухню. Французов никак нельзя отнести
+                к любителям просто плотно набить живот огромным количеством пищи. Франция – страна гурмэ, тонких ценителей кулинарии.
+                Французская кухня – это маленькие порции, насыщение которыми достигается за счет добавления соусов (их во французской
+                кухне более 3000), придирчивость к выбору ингредиентов, изящная сервировка, а также многообразие вин и сыров. Все это
+                позволяет французской кухне быть одной из лучших в мире кулинарии.</p>
+            </div>
+            <div class="georgian">
+                <h1 class="title-country-georg">ГРУЗИНСКАЯ КУХНЯ</h1>
+                <img class="hachapury" src="img/Грузия фото.png" alt="picture">
+                <p class="text-georg">«Национальная грузинская кухня — это яркий калейдоскоп красок, ароматов и вкусов, пробуждающий теплые радостные чувства,
+                а вместе с ними — небывалый аппетит. Грузинская кухня богата и многообразна, во многом благодаря тому что долгие
+                столетия отдельные горные народности жили изолированно друг от друга и сформировали уникальные кулинарные традиции,
+                которых нет больше нигде в мире. Окунитесь в многочисленные оттенки вкусов, наслаждаясь незабываемым шумным грузинским
+                застольем и постигая суть грузинской культуры и грузинского гостеприимства.</p>
+                
+            </div>
+                <div class="italian">
+                <h1 class="title-country-ital">ИТАЛЬЯНСКАЯ КУХНЯ</h1>
+                <img class="pasta" src="img/Италия фото.png" alt="picture">
+                <p class="text-ital">«Итальянцы – большие гурманы и в еде признают только самое лучшее. Италия – это более двух тысяч наименований вин,
+                пятьсот с лишним сортов сыра, триста видов мясных изделий, несколько сотен разновидностей пасты... Однако не только
+                продуктами высшего качества знаменита эта страна. Большинство итальянцев – отличные кулинары. Созданная ими итальянская
+                кухня – уникальная, многранная, бесконечная, неповторимая; говорить о ней можно бесконечно.</p>
+                
+            </div>
+        </div>
+        <footer>
+            <button onclick="topFunction()" class="myBtn" title="Go to top">↑</button>
+            <div class="contacts">
+                <div class="cnt">
+                    <ul>
+                    <li><h2 class="cntcts">КОНТАКТЫ</h2></li>
+                    <li><a class="to-white" href="mailto:ember@hilton.com">ember@hilton.com</a></li>
+                    <li><a class="to-white" href="tel:+375445071729">+375 (44) 507-17-29</a></li>
+                    <li><p>г. Минск, пр. Победителей 9, 7 этаж отеля DoubleTree by Hilton</p></li>
+                    </ul>
+
+                </div>
+            
+                 <div class="schedule">
+                  <ul>
+                    <li><h2 class="schedl">ГРАФИК РАБОТЫ</h2></li>
+                    <li><p class="time">Пн-Ср, Вс с 12:00 до 23:00 (кухня до 22:30) Чт с 12:00 до 24:00 (кухня до 23:00) Пт, Сб с 12:00 до 01:00
+                        (кухня до
+                        00:00)</p></li>
+                     </ul>
+                 </div>
+            </div>
+            <img class="logos" src="img/logos.png" alt="logos">
+            
+            <script>
+                // When the user scrolls down 20px from the top of the document, show the button
+                window.onscroll = function () { scrollFunction() };
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        document.getElementById("myBtn").style.display = "block";
+                    } else {
+                        document.getElementById("myBtn").style.display = "none";
+                    }
+                }
+
+                // When the user clicks on the button, scroll to the top of the document
+                function topFunction() {
+                    document.body.scrollTop = 0; // For Safari
+                    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+                }
+            </script>
+        </footer>
+    </div>
+</body>
+</html>
